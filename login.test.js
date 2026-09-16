@@ -12,7 +12,7 @@ eval(
 
 test("Đăng nhập đúng tài khoản và mật khẩu", () => {
 
-    expect(checkLogin("admin", "1234")).toBe(true);
+    expect(checkLogin("admin", "12345")).toBe(true);
 
 });
 
